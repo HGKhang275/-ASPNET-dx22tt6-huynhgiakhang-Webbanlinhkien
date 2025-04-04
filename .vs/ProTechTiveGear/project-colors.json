@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9ad83cfc-36d9-4dfc-8c62-3a2f2b57beda": {
+      "ProjectGuid": "9ad83cfc-36d9-4dfc-8c62-3a2f2b57beda",
+      "DisplayName": "ProTechTiveGear",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

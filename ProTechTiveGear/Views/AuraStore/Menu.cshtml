@@ -1,0 +1,43 @@
+﻿@model IEnumerable<ProTechTiveGear.Models.Menu>
+@using ProTechTiveGear.Models;
+@{
+
+	Customer acc = (Customer)Session["usr"];
+	string username = "";
+	if (Request.Cookies["usr"] != null)
+	{
+		username = Request.Cookies["usr"].Value;
+
+	}
+
+}
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+    <ul class="navbar-nav">
+        <li class="dropdown submenu">
+            <a class="dropdown-toggle" href="@Url.Action("Index","AuraStore")" role="button" aria-haspopup="true" aria-expanded="false">Trang chủ</a>
+
+        </li>
+        @foreach (var item in Model)
+        {
+            <li class="dropdown submenu">
+                <a class="dropdown-toggle" href="#" role="button" aria-haspopup="true" aria-expanded="false">@item.Name</a>
+                <ul class="dropdown-menu">
+                    @Html.Action("ItemMenuType", "AuraStore", new { id = item.ID })
+                    @Html.Action("Brandtype", "AuraStore", new { id = item.ID })
+
+                </ul>
+            </li>
+
+        }
+        
+        <li class="dropdown submenu">
+            <a class="dropdown-toggle" href="@Url.Action("Contact","AuraStore")" role="button" aria-haspopup="true" aria-expanded="false">Liên Hệ</a>
+
+        
+      
+
+    </ul>
+
+</div>
