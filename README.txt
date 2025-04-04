@@ -1,4 +1,4 @@
-Link Github: https://github.com/HGKhang275/-ASPNET-dx22tt6-huynhgiakhang-demo
+Link Github: https://github.com/HGKhang275/-ASPNET-dx22tt6-huynhgiakhang-Webbanlinhkien/blob/master/README.txt
 
 ---------------------------------------------------------------------------------
 
